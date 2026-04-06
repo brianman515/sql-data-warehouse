@@ -1,8 +1,7 @@
 # Data Catalog for Gold Layer
 
-### 1. **gold.dim_customers**
-- **Purpose:** Stores customer details enriched with demographic and geographic data.
-- **Columns:**
+**gold.dim_customers**
+- **Purpose:** customer details with demographic and geographic data.
 
 | Column Name      | Data Type     | Description                                                                                   |
 |------------------|---------------|-----------------------------------------------------------------------------------------------|
@@ -19,9 +18,8 @@
 
 ---
 
-### 2. **gold.dim_products**
-- **Purpose:** Provides information about the products and their attributes.
-- **Columns:**
+**gold.dim_products**
+- **Purpose:** information about the products and their attributes.
 
 | Column Name         | Data Type     | Description                                                                                   |
 |---------------------|---------------|-----------------------------------------------------------------------------------------------|
@@ -39,9 +37,8 @@
 
 ---
 
-### 3. **gold.fact_sales**
-- **Purpose:** Stores transactional sales data for analytical purposes.
-- **Columns:**
+**gold.fact_sales**
+- **Purpose:** transactional sales data for analytical purposes.
 
 | Column Name     | Data Type     | Description                                                                                   |
 |-----------------|---------------|-----------------------------------------------------------------------------------------------|
