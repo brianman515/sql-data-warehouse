@@ -52,5 +52,5 @@ Technical Columns:
 **Stored Procedure:**
 
 - All stored procedures used for loading data must follow the same naming pattern:
-- load_<layer>
+- <layer>_load
     - <layer>: represents the layer being loaded: gold, silver, bronze
